@@ -74,6 +74,29 @@ export default function Home() {
         </div>
       </section>
 
+      {/* SIP Information Section */}
+      <section className="mt-20 max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
+        <h2 className="text-3xl font-bold text-blue-900 mb-4 text-center">What is SIP?</h2>
+        <p className="text-gray-800 text-lg mb-4">
+          <strong>Systematic Investment Plan (SIP)</strong> is a disciplined way to invest a fixed amount regularly (usually monthly) in mutual funds or stocks. SIP helps you build wealth over time by leveraging two key principles:
+        </p>
+        <ul className="list-disc pl-6 text-gray-700 mb-4">
+          <li><strong>Compounding:</strong> Staying invested for the long term allows your money to grow exponentially, as returns themselves start earning returns.</li>
+          <li><strong>Rupee Cost Averaging:</strong> By investing regularly, you buy more units when prices are low and fewer when prices are high, averaging out your overall cost and reducing the impact of market volatility.</li>
+        </ul>
+        <p className="text-gray-800 mb-4">
+          <strong>Benefits of SIP:</strong> Flexible investment amounts, long-term wealth creation, reduced risk from market fluctuations, and easy planning for future goals.
+        </p>
+        <div className="bg-blue-50 rounded-lg p-4 mb-4">
+          <strong>Example:</strong> If you start a SIP of ₹8,730/month at age 30 for 20 years (assuming 13% annual returns), you could reach a corpus of ₹1 crore by age 50. Starting 10 years later would require a much higher monthly investment to reach the same goal.
+        </div>
+        <p className="text-gray-700 mb-2">
+          <strong>SIP Formula:</strong> <span className="bg-gray-100 px-2 py-1 rounded">Compounded Amount = S × (1 + R/12)<sup>N×12</sup> + S × ((1 + R/12)<sup>N×12</sup> - 1) / (R/12) - S</span>
+        </p>
+        <p className="text-gray-700">
+          Try our <a href="/calculator" className="text-blue-700 underline">SIP Calculator</a> to plan your investments and reach your financial goals!
+        </p>
+      </section>
       {/* Testimonials Section */}
       <section className="mt-20 max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold text-blue-900 mb-8 text-center">What Our Clients Say</h2>
